@@ -23,12 +23,11 @@ import java.util.logging.Logger;
 public class MergeRestrictedPinRange {
 	
 	public static final Logger LOGGER = Logger.getLogger("MergeRestrictedPinRange");
-
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		LOGGER.info("Starting restricted PIN range merge program..");
+		LOGGER.info("Starting restricted PIN range merge program...");
 
 		// Part 1 :: This part would read the input pin code ranges from User
 		Scanner inputScanner = null;

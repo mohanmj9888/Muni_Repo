@@ -24,13 +24,12 @@ import junit.framework.Assert;
 
 public class UnitTestPinCodeMerge {
 	public static final Logger LOGGER = Logger.getLogger("UnitTestPinCodeMerge");
-
 	/**
 	 * Junit method to test the success scenario
 	 */
 	@Test
 	public void testSuccess() {
-		LOGGER.info("----Starting testSuccess----");
+		LOGGER.info("----Starting testSuccess-----");
 
 		List<PinCodeRange> userInputRanges = new ArrayList<PinCodeRange>();
 
